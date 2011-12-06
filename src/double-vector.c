@@ -285,6 +285,7 @@ DV_newNode( DoubleVector v, void* attr )
 
   /* These fields should start out with some default values. */
   temp->id = UNINITIALIZED;
+  temp->next = NULL;
   temp->attr = attr;
 
   return ( temp );
